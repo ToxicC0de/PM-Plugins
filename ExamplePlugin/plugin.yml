@@ -1,0 +1,11 @@
+name: PluginName
+main: ExamplePlugin\MainClass
+version: 1.0.0
+api: [1.0.0]
+author: Me
+
+commands: 
+ custom-command: 
+  description: "My command." 
+  usage: "/custom-command" 
+  permission: myplugin.example
